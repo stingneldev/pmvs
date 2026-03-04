@@ -58,10 +58,10 @@ nav {
 /* Card principal */
 .card-carta {
     background-color: #AC4A4A;
-    padding: 30px;
+    padding: 60px 40px;
     border-radius: 20px;
     color: white;
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
     overflow: hidden;
 }
