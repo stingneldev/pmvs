@@ -87,9 +87,9 @@ nav {
 @media (max-width: 768px) {
 
     .carta-container {
-    display: flex;
-    align-items: center; /* ALTERE AQUI */
-    gap: 40px;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
     }
 
     .titulo-carta {
@@ -98,18 +98,21 @@ nav {
     }
 
     .texto {
+        flex: 1;
         width: 100%;
     }
 
     .caixa-texto {
         width: 100%;
         max-width: 350px;
-        padding: 20px;
+        padding: 15px;
+        font-size: 14px;
     }
 
     .imagem {
+    flex: 1;
     display: flex;
-    align-items: center;
+    justify-content: center;
     }
 
     .imagem img {
