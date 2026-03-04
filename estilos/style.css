@@ -1,10 +1,141 @@
 @charset "UTF-8";
 
-/* Colors
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    BG(vermelho): 163, 0, 21
-    Destaque(vermelho claro): 255, 120, 90
-    BG Text: 227, 228, 219
-    Text: 15, 14, 14
-*/
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
 
+header, nav {
+    width: 100%;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+header {
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+    color: white;
+    background-color: #520F0F;
+    padding: 15px 0;
+}
+
+nav {
+    background-color: #AC4A4A;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.secao-carta {
+    width: 100%;
+    padding: 60px 20px;
+    background: url(../imagens/textura.jpg) center;
+    background-size: cover;
+}
+
+.titulo-carta {
+    font-size: 36px;
+    font-weight: 900;
+    font-style: italic;
+    color: #520F0F;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Card principal */
+.card-carta {
+    background-color: #AC4A4A;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+    max-width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Texto principal */
+.texto-principal {
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.imagens-casal {
+    display: flex;
+    gap: 15px;
+    margin: 25px 0;
+    width: 100%;
+}
+
+.imagens-casal img {
+    width: 50%;
+    max-width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.caixa-destaque {
+    background-color: #520F0F;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.secao-amor {
+    width: 100%;
+    background-color: #520F0F; /* vermelho escuro do fundo */
+    padding: 80px 20px;
+}
+
+.container-amor {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.card-amor {
+    background-color: #AC4A4A;
+    padding: 40px;
+    border-radius: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.texto-amor {
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.7;
+    margin-bottom: 35px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.imagens-amor {
+    display: flex;
+    gap: 30px;
+}
+
+.imagens-amor img {
+    width: 50%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 12px 30px rgba(0,0,0,0.25);
+}
