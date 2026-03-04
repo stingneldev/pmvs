@@ -66,4 +66,22 @@
         font-size: 14px;
     }
 
+    @media (max-width: 768px) {
+
+    .secao-musica {
+        padding: 70px 20px;
+    }
+
+    .card-musica {
+        padding: 40px 25px;
+    }
+
+    .letra-musica {
+        font-size: 18px;
+    }
+
+    .creditos-musica {
+        font-size: 14px;
+    }
+
 }

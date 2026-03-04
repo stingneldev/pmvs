@@ -199,3 +199,40 @@ nav {
     font-style: italic;
     text-align: justify;
 }
+
+/* ===== SEÇÃO MÚSICA ===== */
+
+.secao-musica {
+    width: 100%;
+    background-color: #A94444; /* mesmo fundo da imagem */
+    padding: 100px 20px;
+}
+
+.container-musica {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.card-musica {
+    background-color: #6E0D0D;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.letra-musica {
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.creditos-musica {
+    color: #f0cfcf;
+    font-size: 18px;
+    font-style: italic;
+}
