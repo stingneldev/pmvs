@@ -42,4 +42,28 @@
         gap: 15px;
     }
 
+    .secao-pedido {
+    padding: 60px 20px;
+    }
+
+    .card-pedido {
+        padding: 25px;
+    }
+
+    .card-extra {
+        padding: 25px;
+    }
+
+    .imagens-pedido {
+        gap: 15px;
+    }
+
+    .texto-pedido {
+        font-size: 15px;
+    }
+
+    .card-extra p {
+        font-size: 14px;
+    }
+
 }
