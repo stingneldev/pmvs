@@ -156,7 +156,7 @@ nav {
 
 /* Card principal */
 .card-pedido {
-    background-color: #6E0D0D;
+    background-color: #520F0F;
     padding: 40px;
     border-radius: 25px;
     max-width: 800px;
@@ -188,7 +188,7 @@ nav {
 
 /* Card secundário */
 .card-extra {
-    background-color: #B35050;
+    background-color: #AC4A4A;
     padding: 35px;
     border-radius: 20px;
     max-width: 800px;
@@ -204,7 +204,7 @@ nav {
 
 .secao-musica {
     width: 100%;
-    background-color: #A94444; /* mesmo fundo da imagem */
+    background-color: #AC4A4A; /* mesmo fundo da imagem */
     padding: 100px 20px;
 }
 
@@ -214,7 +214,7 @@ nav {
 }
 
 .card-musica {
-    background-color: #6E0D0D;
+    background-color: #520F0F;
     max-width: 800px;
     margin: 0 auto;
     padding: 60px 40px;
@@ -235,4 +235,67 @@ nav {
     color: #f0cfcf;
     font-size: 18px;
     font-style: italic;
+}
+
+
+.secao-playlist {
+    width: 100%;
+    padding: 100px 20px;
+    background: url(../imagens/textura.jpg) center;
+    background-size: cover;
+}
+
+.container-playlist {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.card-playlist {
+    background-color: #AC4A4A;
+    padding: 60px 40px;
+    border-radius: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.texto-playlist {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.link-playlist {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 25px;
+    border: 2px solid white;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.link-playlist:hover {
+    background-color: white;
+    color: #AC4A4A;
+}
+
+.footer-amor {
+    width: 100%;
+    background-color: #520F0F;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+.footer-amor p {
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0;
 }

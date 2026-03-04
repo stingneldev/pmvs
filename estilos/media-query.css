@@ -84,4 +84,24 @@
         font-size: 14px;
     }
 
+    .secao-playlist {
+    padding: 70px 20px;
+    }
+
+    .card-playlist {
+        padding: 40px 25px;
+    }
+
+    .texto-playlist {
+        font-size: 16px;
+    }
+
+    .link-playlist {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+    .footer-amor p {
+    font-size: 18px;
+    }
 }
