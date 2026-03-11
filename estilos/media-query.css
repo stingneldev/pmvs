@@ -41,6 +41,10 @@
         gap: 15px;
     }
 
+    .imagens-amor img {
+        aspect-ratio: 3 / 4;
+    }
+
     .secao-pedido {
     padding: 60px 20px;
     }
@@ -55,6 +59,10 @@
 
     .imagens-pedido {
         gap: 15px;
+    }
+
+    .imagens-pedido img {
+        aspect-ratio: 3 / 4;
     }
 
     .texto-pedido {
