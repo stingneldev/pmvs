@@ -16,7 +16,6 @@
         gap: 10px;
     }
 
-    /* mantém proporção no mobile também */
     .imagens-casal img {
         aspect-ratio: 3 / 4;
     }
